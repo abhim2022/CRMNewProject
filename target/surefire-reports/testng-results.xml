@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="148634" started-at="2022-10-01T22:47:33 IST" finished-at="2022-10-01T22:50:01 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="148634" started-at="2022-10-01T22:47:33 IST" finished-at="2022-10-01T22:50:01 IST">
+      <class name="fl.crm.testcases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:fl.crm.testcases.LoginTest@167fdd33]" name="setup" is-config="true" duration-ms="9968" started-at="2022-10-01T22:47:33 IST" finished-at="2022-10-01T22:47:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:fl.crm.testcases.LoginTest@167fdd33]" name="login" duration-ms="13390" started-at="2022-10-01T22:47:43 IST" finished-at="2022-10-01T22:47:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:fl.crm.testcases.LoginTest@167fdd33]" name="verifyTitle" duration-ms="62" started-at="2022-10-01T22:47:56 IST" finished-at="2022-10-01T22:47:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- fl.crm.testcases.LoginTest -->
+      <class name="fl.crm.testcases.ContactsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:fl.crm.testcases.ContactsTest@4d95d2a2]" name="setup" is-config="true" duration-ms="30794" started-at="2022-10-01T22:48:30 IST" finished-at="2022-10-01T22:49:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createANewContactAndValidateItIsCreated(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:fl.crm.testcases.ContactsTest@4d95d2a2]" name="createANewContactAndValidateItIsCreated" duration-ms="14076" started-at="2022-10-01T22:49:07 IST" data-provider="createuser" finished-at="2022-10-01T22:49:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pavan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[goldy@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createANewContactAndValidateItIsCreated -->
+        <test-method status="PASS" signature="createANewContactAndValidateItIsCreated(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:fl.crm.testcases.ContactsTest@4d95d2a2]" name="createANewContactAndValidateItIsCreated" duration-ms="13230" started-at="2022-10-01T22:49:21 IST" data-provider="createuser" finished-at="2022-10-01T22:49:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vidya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hemant@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createANewContactAndValidateItIsCreated -->
+        <test-method status="PASS" signature="createANewContactAndValidateItIsCreated(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:fl.crm.testcases.ContactsTest@4d95d2a2]" name="createANewContactAndValidateItIsCreated" duration-ms="13421" started-at="2022-10-01T22:49:34 IST" data-provider="createuser" finished-at="2022-10-01T22:49:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrudula]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anurag@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createANewContactAndValidateItIsCreated -->
+        <test-method status="PASS" signature="createANewContactAndValidateItIsCreated(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:fl.crm.testcases.ContactsTest@4d95d2a2]" name="createANewContactAndValidateItIsCreated" duration-ms="13808" started-at="2022-10-01T22:49:48 IST" data-provider="createuser" finished-at="2022-10-01T22:50:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priyanka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createANewContactAndValidateItIsCreated -->
+      </class> <!-- fl.crm.testcases.ContactsTest -->
+      <class name="fl.crm.testcases.HomeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:fl.crm.testcases.HomeTest@1e965684]" name="setup" is-config="true" duration-ms="32210" started-at="2022-10-01T22:47:56 IST" finished-at="2022-10-01T22:48:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateCalanderMenuLinkIsDisplayed()[pri:0, instance:fl.crm.testcases.HomeTest@1e965684]" name="validateCalanderMenuLinkIsDisplayed" duration-ms="1358" started-at="2022-10-01T22:48:28 IST" finished-at="2022-10-01T22:48:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCalanderMenuLinkIsDisplayed -->
+        <test-method status="PASS" signature="validateCompaniesMenuLinkIsDisplayed()[pri:0, instance:fl.crm.testcases.HomeTest@1e965684]" name="validateCompaniesMenuLinkIsDisplayed" duration-ms="44" started-at="2022-10-01T22:48:30 IST" finished-at="2022-10-01T22:48:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCompaniesMenuLinkIsDisplayed -->
+        <test-method status="PASS" signature="validateContactsMenuLinkIsDisplayed()[pri:0, instance:fl.crm.testcases.HomeTest@1e965684]" name="validateContactsMenuLinkIsDisplayed" duration-ms="58" started-at="2022-10-01T22:48:30 IST" finished-at="2022-10-01T22:48:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactsMenuLinkIsDisplayed -->
+        <test-method status="PASS" signature="validateDealsMenuLinkIsDisplayed()[pri:0, instance:fl.crm.testcases.HomeTest@1e965684]" name="validateDealsMenuLinkIsDisplayed" duration-ms="51" started-at="2022-10-01T22:48:30 IST" finished-at="2022-10-01T22:48:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDealsMenuLinkIsDisplayed -->
+        <test-method status="PASS" signature="validateHomeMenuLinkIsDisplayed()[pri:0, instance:fl.crm.testcases.HomeTest@1e965684]" name="validateHomeMenuLinkIsDisplayed" duration-ms="63" started-at="2022-10-01T22:48:30 IST" finished-at="2022-10-01T22:48:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomeMenuLinkIsDisplayed -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:fl.crm.testcases.HomeTest@1e965684]" name="verifyHomePageTitle" duration-ms="14" started-at="2022-10-01T22:48:30 IST" finished-at="2022-10-01T22:48:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+      </class> <!-- fl.crm.testcases.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
